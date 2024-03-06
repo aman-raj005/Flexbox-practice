@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{width:100vw;
+                   height:10%;
+                background-color:antiquewhite;
+                list-style: none; 
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        #flexitems{
+            color:black;  
+                   
+        }
+        #outer{border:2px solid red;
+          width:400px;
+        height:400px;
+    background-color:blanchedalmond;
+             display:flex;
+             flex-direction:row;
+            justify-content: center;
+             align-items: center;}
+    #inner{border:2px solid rgb(14, 14, 14);
+          width:200px;
+        height:200px;
+    background-color:rgb(31, 30, 30);}
+    </style>
+</head>
+<body>
+    <ol id="container">
+        <li class="flexitem">Home </li>
+        <li class="flexitem">List</li>
+        <li class="flexitem">Contact us</li>
+        <li class="flexitem">Adress</li>
+    </ol>
+<div id="outer">
+    <div id="inner">
+
+    </div>
+</div>
+</body>
+</html>
